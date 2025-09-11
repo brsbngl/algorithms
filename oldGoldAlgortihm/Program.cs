@@ -51,7 +51,7 @@ Console.WriteLine("Yığın sayısı giriniz: ");
 int pilesCount = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Yığınlardaki parça sayısını giriniz: ");
-int[] piles = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
+    int[] piles = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
 
 Console.WriteLine("Toplam altın sayısını giriniz: ");
 int goldCount = Convert.ToInt32(Console.ReadLine());
